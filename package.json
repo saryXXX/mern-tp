@@ -1,0 +1,26 @@
+{
+  "name": "s2-mongoose-atlas",
+  "version": "1.0.0",
+  "description": "API REST MERN - Seance 2 Decale : Persistance NoSQL avec MongoDB Atlas et Mongoose",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "mern",
+    "express",
+    "mongoose",
+    "mongodb-atlas",
+    "api-rest"
+  ],
+  "author": "Dr. Abdelweheb GUEDDES",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.5"
+  }
+}
